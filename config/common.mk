@@ -249,3 +249,10 @@ PRODUCT_COPY_FILES += \
     vendor/lineage/prebuilt/common/etc/permissions/privapp-permissions-lawnchair.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-lawnchair.xml \
     vendor/lineage/prebuilt/common/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/lawnchair-hiddenapi-package-whitelist.xml
 
+# Apex
+PRODUCT_SOONG_NAMESPACES += \
+    vendor/lineage/apex
+
+PRODUCT_PACKAGES += \
+    ModuleMetadataGooglePrebuilt
+
