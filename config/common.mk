@@ -3,6 +3,10 @@ $(call inherit-product-if-exists, vendor/extra/product.mk)
 $(call inherit-product-if-exists, vendor/lineage/config/neon.mk)
 $(call inherit-product-if-exists, vendor/addons/config.mk)
 
+# Inherit from fonts config
+$(call inherit-product, vendor/lineage/config/fonts.mk)
+
+
 PRODUCT_BRAND ?= NeonOS
 
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
