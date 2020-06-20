@@ -3,7 +3,8 @@
 # ADDOND_VERSION=2
 #
 # /system/addon.d/50-lineage.sh
-# During a LineageOS upgrade, this script backs up /system/etc/hosts,
+
+# During a NeonOS Android upgrade, this script backs up /system/etc/hosts,n
 # /system is formatted and reinstalled, then the file is restored.
 #
 
